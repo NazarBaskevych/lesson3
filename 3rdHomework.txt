@@ -1,15 +1,17 @@
 1) Git branch Postman и тд.
 2) Git push -u origin Postman   и тд.
 3) touch BugReportStructure.txt
+	vim BugReportStructure.txt (туда добавил нужную инфу)
 4) 	git add .
 	git commit -m "push BugReportStructure.txt to remote branch"
 	git push
-5) Переходим в main и пишем git merge
+5) Переходим в main и пишем git merge BugReport
 6) 	git add .
 	git commit -m "push main to remote branch main"
 	git push
 7)	git checkout Checklist
 	touch ChecklistStructure.txt
+	vim ChecklistStructure.txt (туда добавил нужную инфу)
 8)	git add .
 	git commit -m "push ChecklistStructure.txt to remote branch Checklist"
 	git push
